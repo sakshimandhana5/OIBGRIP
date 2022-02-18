@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  font-family: "Source Sans Pro", sans-serif;
+  letter-spacing: 0.3px;
+  word-spacing: 0.1px;
+  background-color: rgb(255, 237, 210);
+}
+main {
+  align-self: center;
+  width: 85vw;
+  text-align: center;
+  background-color: rgb(36, 4, 4);
+  font-size: 18px;
+}
+header {
+  position: fixed;
+  width: 100%;
+  margin: 0;
+  top: 0;
+  background-color: #f3f8f7;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(255, 237, 210);
+}
+#title {
+  font-family: "Euphoria Script", cursive;
+  color: rgb(255, 237, 210);
+  font-size: 60px;
+  margin: 0;
+}
+#subtitle {
+  font-family: "Prompt", sans-serif;
+  color: rgb(255, 237, 210);
+  font-size: 25px;
+  margin: 0;
+  padding: 3px;
+}
+.title-container {
+  padding: 2px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+#image {
+  width: 50%;
+}
+.img-div {
+  padding: 7%;
+  position: relative;
+}
+.text {
+  position: relative;
+  text-align: justify;
+  padding: 20px;
+  color: rgb(255, 237, 210);
+  word-spacing: 3px;
+}
+#img-caption {
+  padding-top: 5px;
+}
+#tribute-info {
+  border-top: 1px solid black;
+}
+section {
+  font-size: 15px;
+  width: 80%;
+  margin: auto;
+  left: 50%;
+  text-align: justify;
+}
+h2 {
+  font-size: 14px;
+  text-align: center;
+  margin: 1rem;
+  color: rgb(255, 237, 210);
+}
+.caption {
+  font-size: 19px;
+}
+.mytabs {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 25px;
+}
+.mytabs input[type="radio"] {
+  display: none;
+}
+.mytabs label {
+  padding: 25px;
+  background: rgb(129, 107, 65);
+  font-weight: bold;
+  font-size: 16px;
+  color: rgb(36, 4, 4);
+}
+
+.mytabs .tab {
+  width: 91.4%;
+  padding: 20px;
+  background: rgb(255, 237, 210);
+  order: 1;
+  display: none;
+}
+.mytabs .tab h2 {
+  font-size: 2em;
+  color: rgb(36, 4, 4);
+}
+
+.mytabs input[type="radio"]:checked + label + .tab {
+  display: block;
+}
+
+.mytabs input[type="radio"]:checked + label {
+  background: rgb(255, 237, 210);
+}
